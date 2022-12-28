@@ -21,7 +21,7 @@
 title: Wo Meijer dot com
 email: womeijer [at] gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal website of Wo Meijer. I am a PhD student at the TU Delft, working on the intersection of Industrial Design and Video. Also on Human-Food Interaction
+  The personal website of Wo Meijer. I am a PhD student at the TU Delft, working on the intersection of Industrial Design and Video, (and Human-Food Interaction).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
