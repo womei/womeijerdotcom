@@ -2,9 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: page
+title: Food Research
 ---
-# Food research
+<!-- # Food research -->
 
 I've been [fascinated](https://medium.com/@womeijer/extended-food-305f4b5005d3https://medium.com/@womeijer/extended-food-305f4b5005d3) with human-food interaction for a long time; it is the perfect blend of three things I love:
 

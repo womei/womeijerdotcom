@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: page
+title: Previous Experience
 
 ---
-# Previous Experience
 
 Before my PhD I worked as a bike designer, at a start-up, and had a few internships, you can read more about them and why they're cool here:
 
