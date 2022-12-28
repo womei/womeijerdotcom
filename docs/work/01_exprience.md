@@ -4,7 +4,7 @@
 
 layout: page
 title: Previous Experience
-
+permalink: "/work/index.html"
 ---
 
 Before my PhD I worked as a bike designer, at a start-up, and had a few internships, you can read more about them and why they're cool here:

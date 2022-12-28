@@ -4,6 +4,7 @@
 
 layout: page
 title: Publications
+permalink: "/research/index.html"
 ---
 
 My list of publications will go here... whenever I finally something gets published...
