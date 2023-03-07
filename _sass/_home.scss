@@ -1,5 +1,7 @@
 .blurb {
-
+	img {
+		width: 100%;
+	}
 
 	@include medium {
 		display: grid;
@@ -9,7 +11,6 @@
 
 		img {
 			grid-area: img;
-			width: 100%;
 		}
 
 		div {

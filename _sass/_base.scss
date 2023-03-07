@@ -7,11 +7,19 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	font-family: $global-font-family;
+	min-height: 100vh;
 }
 
 main {
 	margin: 0 auto;
-	padding: 1rem 2rem;
+	margin-top: $h1-s;
+	padding: $padding-s;
+
+	@include medium {
+		padding: $padding-m;
+		margin-top: $h1-m;
+
+	}
 
 	section {
 		margin: 1rem 0;
