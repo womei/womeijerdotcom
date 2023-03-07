@@ -23,7 +23,7 @@ The common kingfisher was first described by Carl Linnaeus in the 10th edition o
 
 The genus Alcedo comprises seven small kingfishers that all eat fish as part of their diet. The common kingfisher's closest relative is the cerulean kingfisher that has white underparts and is found in parts of Indonesia.[^6][^7]
 
-![Kingfisher](/assets/images/kingfisher.jpg)
+![Kingfisher]({{ site.baseurl }}/assets/images/kingfisher.jpg)
 
 ### Description
 This species has the typical short-tailed, dumpy-bodied, large-headed, and long-billed kingfisher shape. The adult male of the western European subspecies, A. a. ispida has green-blue upperparts with pale azure-blue back and rump, a rufous patch by the bill base, and a rufous ear-patch. It has a green-blue neck stripe, white neck blaze and throat, rufous underparts, and a black bill with some red at the base. The legs and feet are bright red.[7] It is about `16 cm (6+1⁄2 in)` long with a wingspan of `25 cm (10 in)`,[7] and weighs `34–46 g (1+3⁄16–1+5⁄8 oz)`.[8] The female is identical in appearance to the male except that her lower mandible is orange-red with a black tip. The juvenile is similar to the adult, but with duller and greener upperparts and paler underparts. Its bill is black, and the legs are also initially black.[7] Feathers are moulted gradually between July and November with the main flight feathers taking 90–100 days to moult and regrow. Some that moult late may suspend their moult during cold winter weather.[citation needed]
