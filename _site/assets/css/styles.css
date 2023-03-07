@@ -1,0 +1,100 @@
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Nunito:wght@400;700&display=swap");
+/* Colours */
+/* breakpoints */
+/* font sizes */
+html { font-size: 16px; }
+
+body { background-color: #fdfef6; margin: 0 auto; padding: 0; font-family: "Nunito", sans-serif; }
+
+main { margin: 0 auto; padding: 1rem 2rem; }
+main section { margin: 1rem 0; }
+
+/* typography */
+h1, h2, h3, h4, h5, h6, p { color: #13140b; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "IBM Plex Mono", monospace; font-weight: bold; margin: 0rem; }
+
+code { font-family: "IBM Plex Mono", monospace; background-color: #75e6f0; }
+
+h1 { font-size: 2.25rem; }
+@media (min-width: 640px) { h1 { font-size: 3.5rem; } }
+@media (min-width: 1020px) { h1 { font-size: 4.5rem; } }
+
+h2 { font-size: 1.5rem; }
+@media (min-width: 640px) { h2 { font-size: 1.85rem; } }
+@media (min-width: 1020px) { h2 { font-size: 2.25rem; } }
+
+h3 { font-size: 1.25rem; }
+@media (min-width: 640px) { h3 { font-size: 1.375rem; } }
+@media (min-width: 1020px) { h3 { font-size: 1.5rem; } }
+
+h4 { font-size: 1.25rem; font-style: italic; }
+@media (min-width: 640px) { h4 { font-size: 1.375rem; } }
+@media (min-width: 1020px) { h4 { font-size: 1.5rem; } }
+
+p, li { margin: 0; font-size: 1rem; }
+@media (min-width: 640px) { p, li { font-size: 1.125rem; } }
+@media (min-width: 1020px) { p, li { font-size: 1.25rem; } }
+
+/* links */
+a { font-size: inherit; color: #955422; text-decoration: none; }
+
+a:hover { color: #b07f59; text-decoration: underline; }
+
+.material-symbols-rounded { font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48; }
+
+/* list */
+.ul-nostyle { list-style-type: none; margin: 0; padding: 0; }
+
+.noMargin { margin: 0; }
+
+.tags { display: flex; gap: 0.25rem; }
+
+.tag { padding: 2px 8px; width: min-content; border-radius: 1rem; }
+
+.tag-publication { background-color: #98ecf4; }
+
+.tag-food { background-color: #5cbbf7; }
+
+.tag-farts { background-color: #fba96b; }
+
+header { background-color: #25a4f4; padding: 1rem 2rem; display: grid; grid-template-areas: "logo hamburger" "links links"; align-items: center; }
+@media (min-width: 640px) { header { display: flex; justify-content: space-between; align-items: center; } }
+header .logo { grid-area: logo; font-family: "IBM Plex Mono", monospace; font-weight: bold; margin: 0rem; }
+header .logo a, header .logo a:hover { color: inherit; }
+header #hamburger { grid-area: hamburger; justify-self: end; }
+header ul { padding: 0; margin: 0; grid-area: links; max-height: 0px; overflow: hidden; transition: max-height .2s ease-in-out; list-style-type: none; }
+header ul a { color: #13140b; }
+header ul a:hover { color: inherit; }
+@media (min-width: 640px) { header ul { display: flex; gap: 2rem; } }
+header ul li:first-child { margin-top: 1em; }
+@media (min-width: 640px) { header ul { max-height: 100px; }
+  header ul li:first-child { margin-top: 0; } }
+
+#hamburger { user-select: none; cursor: pointer; }
+@media (min-width: 640px) { #hamburger { display: none; } }
+
+#hamburger-toggle { display: none; }
+
+#hamburger-toggle:checked + ul { max-height: 100px; transition: max-height .2s ease-in-out; }
+
+@media (min-width: 640px) { .blurb { display: grid; grid-template-columns: 35% 1fr; grid-template-areas: "img blurb"; align-items: center; }
+  .blurb img { grid-area: img; width: 100%; }
+  .blurb div { grid-area: blurb; } }
+
+.highlights { list-style-type: none; margin: 0; padding: 0; }
+@media (min-width: 640px) { .highlights { display: flex; flex-direction: row; justify-content: space-between; } }
+
+.highlight img { object-fit: cover; max-width: 100%; aspect-ratio: 5/3; }
+@media (min-width: 640px) { .highlight { width: 32%; } }
+
+.projectitem { margin: 1rem 0; }
+
+@media (min-width: 640px) { .post { max-width: 680px; margin: 0 auto; } }
+.post .post-date { margin-bottom: 1.25rem; }
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 { margin: 1.25rem 0 0 0; }
+.post p { margin: 0 0 0.75rem; }
+.post img { max-width: 100%; }
+.post ul { list-style-type: none; }
+.post ul li:before { content: "-"; position: absolute; margin-left: -1em; }

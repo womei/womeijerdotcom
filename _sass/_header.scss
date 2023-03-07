@@ -1,0 +1,87 @@
+header {
+  background-color: $blue1;
+  padding: 1rem 2rem;
+  
+  display: grid;
+  grid-template-areas: 
+    "logo hamburger"
+    "links links";
+  align-items: center;
+
+  @include medium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    grid-area: logo;
+    font-family: $header-font-family;
+    font-weight: bold;
+    margin: 0rem;
+
+    a, a:hover {
+      color: inherit;
+    }
+  }
+
+  #hamburger {
+    grid-area: hamburger;
+    justify-self: end;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    grid-area: links;
+
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .2s ease-in-out;
+
+    list-style-type: none;
+    
+    a {
+      color: $dark;
+    }
+
+    a:hover {
+      color: inherit;
+    }
+
+    @include medium {
+      display: flex;
+      gap: 2rem;
+    }
+
+    li:first-child {
+      margin-top: 1em;
+    }
+
+    @include medium {
+    max-height: 100px;
+
+      li:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+#hamburger {
+  user-select:none;
+  cursor: pointer;
+
+  @include medium {
+    display: none;
+  }
+}
+
+#hamburger-toggle {
+  display: none;
+}
+
+#hamburger-toggle:checked + ul {
+  max-height: 100px;
+  transition: max-height .2s ease-in-out;
+}

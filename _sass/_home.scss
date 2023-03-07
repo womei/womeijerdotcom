@@ -1,0 +1,51 @@
+.blurb {
+
+
+	@include medium {
+		display: grid;
+		grid-template-columns: 35% 1fr;
+		grid-template-areas: "img blurb";
+		align-items: center;
+
+		img {
+			grid-area: img;
+			width: 100%;
+		}
+
+		div {
+			grid-area: blurb;
+		}
+	}
+
+
+}
+
+
+.highlights {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+
+	@include medium {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;		
+	}
+
+}
+
+.highlight {
+	img {
+		object-fit: cover;
+		max-width: 100%;
+		aspect-ratio: 5/3;
+	}
+
+	@include medium {
+		width: 32%;
+	}
+}
+
+.projectitem {
+	margin: 1rem 0;
+}

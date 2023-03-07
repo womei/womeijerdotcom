@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<section class="blurb">
+    
+    <div>
+        <h1>My name is Wo&nbsp;Meijer</h1>
+        <p>I build stuff* and put it on the internet whenever possible.</p>
+        <p>* mostly electronics projects and design things</p>        
+    </div>
+    <img src="{{ site.baseurl }}/assets/images/WoPic.png">
+
+</section>
+
+<section> 
+    <ul class="highlights">
+        {% for post in site.posts %}
+            {% if post.categories contains "highlight" %}
+            <li class="highlight">
+                <h2>
+                    <a href="{{ post.url | relative_url }}">{{post.title}}</a>
+                </h2>
+                <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>     
+</section>
+
+<section class="projectlist">
+    <h2>Projects</h2>
+    <ul class="ul-nostyle">
+    {% for project in site.data.projects %}
+        <li class="projectitem">
+            {% if project.link %}
+            <h3>
+                <a href="{{ project.link }}">
+                    {{ project.title }}
+                </a>
+            </h3>
+            {% else %}
+            <h3>{{ project.title }}</h3>
+            {% endif %}
+
+            <p class="noMargin">{{ project.body }}</p>
+
+            <ul class="ul-nostyle tags">
+                {% for tag in project.tags %}
+                <li class="tag tag-{{tag}}">{{ tag }}</li>
+                {% endfor %}                
+            </ul>
+
+            
+        </li>
+    {% endfor %}    
+    </ul>  
+</section>
+
+
