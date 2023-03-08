@@ -17,8 +17,6 @@
 			grid-area: blurb;
 		}
 	}
-
-
 }
 
 
@@ -32,7 +30,6 @@
 		flex-direction: row;
 		justify-content: space-between;		
 	}
-
 }
 
 .highlight {
@@ -40,6 +37,10 @@
 		object-fit: cover;
 		max-width: 100%;
 		aspect-ratio: 5/3;
+	}
+
+	h2 {
+		color: inherit;
 	}
 
 	@include medium {

@@ -6,9 +6,8 @@ layout: default
     
     <div>
         <h1>My name is Wo&nbsp;Meijer</h1>
-        {% for line in page.headline %}
-            <p>{{line}}</p>  
-        {% endfor %}
+        <p>I build stuff* and put it on the internet whenever possible.</p>
+        <p>* mostly electronics projects and design things</p>        
     </div>
     <img src="{{ site.baseurl }}/assets/images/WoPic.png">
 
@@ -19,10 +18,10 @@ layout: default
         {% for post in site.posts %}
             {% if post.categories contains "highlight" %}
             <li class="highlight">
-                <h2>
-                    <a href="{{ post.url | relative_url }}">{{post.title}}</a>
-                </h2>
-                <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+                <a href="{{ post.url | relative_url }}">
+                    <h2>{{post.title}}</h2>
+                    <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+                </a>
             </li>
             {% endif %}
         {% endfor %}
