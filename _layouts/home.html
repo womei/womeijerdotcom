@@ -47,11 +47,13 @@ layout: default
 
             <ul class="ul-nostyle tags">
                 {% for tag in project.tags %}
-                <li class="tag tag-{{tag}}">{{ tag }}</li>
+                <li class="tag tag-{{tag}}">
+                    <a href="{{ site.baseurl }}/tags/{{ tag }}">
+                        {{ tag }}
+                    </a>
+                </li>
                 {% endfor %}                
             </ul>
-
-            
         </li>
     {% endfor %}    
     </ul>  
