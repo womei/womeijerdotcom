@@ -31,6 +31,16 @@ github_username:  jekyll
 #theme: minima
 plugins:
   - jekyll-feed
+collections:
+  tags:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "_tags"
+    values:
+      layout: "tag"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
