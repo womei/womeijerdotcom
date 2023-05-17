@@ -1,29 +1,20 @@
-- title: "PRO-GE"
-  body: "PRO-GE is a trade union representing production workers in manufacturing, agriculture and mining, in Austria." 
-  link: "https://en.wikipedia.org/wiki/PRO-GE"
+- title: Destructive Feedback
+  body: I wrote a paper about how people turning bike seats backwards in the Paris bike share system is a user generated feedback mechanism that should be embraced by designers.
+  link: "https://research.tudelft.nl/en/publications/destructive-feedback-a-user-created-strategy-for-collecting-user-"
   tags: 
     - publication
-    - food
+    - bikes
 
-- title: "Rakel Liekki"
-  body: "Tiina-Rakel Liekki (born 20 September 1979 in Suonenjoki) is a Finnish artist, freelance journalist, writer, director and producer, and former pornographic actress." 
-  link: "https://en.wikipedia.org/wiki/Rakel_Liekki"
+- title: "PhD Council Member"
+  body: "As a member of the PhD council I was responsible for organizing events for PhD students at the faculty of Industrial Design Engineering as well as acting as the link between the PhD students and the faculty. This included organizing the yearly PhD day, monthly drinks, and putting out fires." 
+  link: "https://www.tudelft.nl/io/onderzoek/graduate-school/phd-council"
   tags: 
-    - publication
-    - food
+    - TUDelft
 
-
-- title: "Marimba"
-  body: "The marimba (/məˈrɪmbə/) is a musical instrument in the percussion family that consists of wooden bars that are struck by mallets. Below each bar is a resonator pipe that amplifies particular harmonics of its sound. Compared to the xylophone, the timbre of the marimba is warmer, deeper, more resonant, and more pure. It also tends to have a lower range than that of a xylophone. Typically, the bars of a marimba are arranged chromatically, like the keys of a piano. The marimba is a type of idiophone." 
-  link: "https://en.wikipedia.org/wiki/Marimba"
+- title: "Mentor: Smart Connected Bikes"
+  link: "https://repository.tudelft.nl/islandora/object/uuid%3Abaa49891-fb24-415f-b437-2e8855d175f0"
+  body: "I was the second mentor for Bent Verhoeff's graduation project: Increasing Empathy Towards Gig Workers Through Communicating Heart Rate Data." 
   tags: 
-    - publication
-    - food
-
-
-- title: "Master’s graduation project: Smart connected bikes"
-  body: "I’ve got a master’s graduation project available for something bla bla blee bluu." 
-  tags: 
-    - publication
-    - food
-    - farts
+    - graduation
+    - bikes
+    - TUDelft

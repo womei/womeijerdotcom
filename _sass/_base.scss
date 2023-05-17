@@ -28,11 +28,22 @@ main {
 
 /* typography */
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 	color: $dark;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: $header-font-family;
 	font-weight: bold;
 	margin: 0rem;
@@ -47,36 +58,36 @@ h1 {
 	font-size: $h1-s;
 
 	@include medium {
-    font-size: $h1-m;
-  }
+		font-size: $h1-m;
+	}
 
-  @include large {
-  	font-size: $h1-l;
-  }
+	@include large {
+		font-size: $h1-l;
+	}
 }
 
 h2 {
 	font-size: $h2-s;
 
 	@include medium {
-    font-size: $h2-m;
-  }
+		font-size: $h2-m;
+	}
 
-  @include large {
-  	font-size: $h2-l;
-  }
+	@include large {
+		font-size: $h2-l;
+	}
 }
 
 h3 {
 	font-size: $h3-s;
 
 	@include medium {
-    font-size: $h3-m;
-  }
+		font-size: $h3-m;
+	}
 
-  @include large {
-  	font-size: $h3-l;
-  }
+	@include large {
+		font-size: $h3-l;
+	}
 }
 
 h4 {
@@ -84,26 +95,27 @@ h4 {
 	font-style: italic;
 
 	@include medium {
-    font-size: $h4-m;
-  }
+		font-size: $h4-m;
+	}
 
-  @include large {
-  	font-size: $h4-l;
-  }
+	@include large {
+		font-size: $h4-l;
+	}
 }
 
 
-p, li {
+p,
+li {
 	margin: 0;
 	font-size: $p-s;
-	
-	@include medium {
-    font-size: $p-m;
-  }
 
-  @include large {
-  	font-size: $p-l;
-  }
+	@include medium {
+		font-size: $p-m;
+	}
+
+	@include large {
+		font-size: $p-l;
+	}
 }
 
 /* links */
@@ -119,12 +131,12 @@ a:hover {
 }
 
 .material-symbols-rounded {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-  }
+	font-variation-settings:
+		'FILL' 1,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 48
+}
 
 /* list */
 .ul-nostyle {
@@ -160,6 +172,18 @@ a:hover {
 
 .tag-food {
 	background-color: mix(#fff, $blue1, 25%);
+}
+
+.tag-TUDelft {
+	background-color: mix(#fff, $blue1, 25%);
+}
+
+.tag-bikes {
+	background-color: mix(#fff, $accent, 25%);
+}
+
+.tag-graduation {
+	background-color: mix(#fff, $red, 25%);
 }
 
 .tag-farts {
