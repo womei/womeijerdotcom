@@ -6,5 +6,6 @@ layout: home
 
 headline: 
     - "I build stuff* and put it on the internet."
-    - " * random electronics, smart connected bikes, design tools, food things."
+    - " * random electronics, smart connected bikes, design tools, human food interaction things."
+    - "also I am a PhD candidate at the Faculty of Industrial Design Engineering at the TU Delft."
 ---

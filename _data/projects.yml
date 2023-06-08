@@ -36,3 +36,15 @@
 - title: Founder - Delft Improv Group
   link: "https://delftimprov.com/"
   body: "I founded the largest improv group in Delft. We perform monthly shows and teach workshops to students and professionals. Despite founding it when I was 19 it still goes strong today!" 
+
+- title: Organizer EmpathICH '23 workshop
+  body: One of the lead organizers of the 2023 edition of the Empathy workshop at CHI! Worked to organize the workshop, review submissions, arrrange the program!
+  link: "https://empathich.com/"
+  tags: 
+    - publication
+
+- title: "Fast Drink: Mediating Empathy for Gig Workers"
+  body: "I wrote a paper about how to use heart rate data to mediate empathy between bike delivery personnel and their customers."
+  link: "https://doi.org/10.1145/3588967.3588975"
+  tags: 
+    - publication
