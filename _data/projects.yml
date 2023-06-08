@@ -1,3 +1,17 @@
+- title: "Graduation Project: funGUS"
+  link: "./assets/pdf/graduation_fungus.pdf"
+  body: "Open graduation project for someone interested in exploring More-than-Human Affective Haptics, mushroom cultivation, and space. Normal stuff!" 
+  tags: 
+    - graduation
+    - TUDelft
+
+- title: "Graduation Project: Connected Dining for Space"
+  link: "./assets/pdf/graduation_remote_para_eating.pdf"
+  body: "Open graduation project for someone interested in exploring how to design for remote dining experiences for space. Do astronauts eat with their families on a video call, with prerecorded strangers, with robots, with all of the above? You know normal stuff!" 
+  tags: 
+    - graduation
+    - TUDelft
+
 - title: Destructive Feedback
   body: I wrote a paper about how people turning bike seats backwards in the Paris bike share system is a user generated feedback mechanism that should be embraced by designers.
   link: "https://research.tudelft.nl/en/publications/destructive-feedback-a-user-created-strategy-for-collecting-user-"
