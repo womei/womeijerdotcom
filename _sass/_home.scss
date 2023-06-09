@@ -8,6 +8,7 @@
 		grid-template-columns: 35% 1fr;
 		grid-template-areas: "img blurb";
 		align-items: center;
+		gap: 2rem;
 
 		img {
 			grid-area: img;
@@ -21,14 +22,14 @@
 
 
 .highlights {
-	list-style-type: none; 
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 
 	@include medium {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;		
+		justify-content: space-between;
 	}
 }
 
