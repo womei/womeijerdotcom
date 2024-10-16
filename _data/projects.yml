@@ -1,9 +1,8 @@
-- title: "Graduation Project: funGUS"
-  link: "./assets/pdf/graduation_fungus.pdf"
-  body: "Open graduation project for someone interested in exploring More-than-Human Affective Haptics, mushroom cultivation, and space. Normal stuff!" 
+- title: "Sphere Window: Challenges and Opportunities of 360° Video in Collaborative Design Workshops."
+  link: "https://dl.acm.org/doi/10.1145/3679318.3685407"
+  body: "Paper presented at NordiCHI about how 360° video changes Video Design Ethnography." 
   tags: 
-    - graduation
-    - TUDelft
+    - publication
 
 - title: "Graduation Project: Connected Dining for Space"
   link: "./assets/pdf/graduation_remote_para_eating.pdf"
