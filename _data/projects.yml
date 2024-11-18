@@ -1,16 +1,23 @@
+
+- title: "Tangi: a Tool to Create Tangible Artifacts for Sharing Insights from 360."
+  link: "https://arxiv.org/abs/2411.10192"
+  body: "Paper that will be presented at TEI 2025 about making 360° content tangible for workshops!" 
+  tags: 
+    - publication
+    
 - title: "Sphere Window: Challenges and Opportunities of 360° Video in Collaborative Design Workshops."
   link: "https://dl.acm.org/doi/10.1145/3679318.3685407"
   body: "Paper presented at NordiCHI about how 360° video changes Video Design Ethnography." 
   tags: 
     - publication
-
-- title: "Graduation Project: Connected Dining for Space"
-  link: "./assets/pdf/graduation_remote_para_eating.pdf"
-  body: "Open graduation project for someone interested in exploring how to design for remote dining experiences for space. Do astronauts eat with their families on a video call, with prerecorded strangers, with robots, with all of the above? You know normal stuff!" 
+    
+- title: "Member of the Works Council"
+  body: "As a member of the Works Council (OR) I am responsible for interfacing with the excutive board of the university to champion the rigts of employees. Fighting for social safety and well being for all employees, but especially PhD candidates." 
+  link: "https://www.tudelft.nl/en/about-tu-delft/organisation/consultation-bodies/ondernemingsraad"
   tags: 
-    - graduation
     - TUDelft
-
+    - Management
+    
 - title: Destructive Feedback
   body: I wrote a paper about how people turning bike seats backwards in the Paris bike share system is a user generated feedback mechanism that should be embraced by designers.
   link: "https://research.tudelft.nl/en/publications/destructive-feedback-a-user-created-strategy-for-collecting-user-"
@@ -23,6 +30,7 @@
   link: "https://www.tudelft.nl/io/onderzoek/graduate-school/phd-council"
   tags: 
     - TUDelft
+    - Management
 
 - title: "Mentor: Smart Connected Bikes"
   link: "https://repository.tudelft.nl/islandora/object/uuid%3Abaa49891-fb24-415f-b437-2e8855d175f0"
@@ -31,11 +39,14 @@
     - graduation
     - bikes
     - TUDelft
+    - Management
 
 - title: Founder - Delft Improv Group
   link: "https://delftimprov.com/"
   body: "I founded the largest improv group in Delft. We perform monthly shows and teach workshops to students and professionals. Despite founding it when I was 19 it still goes strong today!" 
-
+  tags:
+    - Management
+  
 - title: Organizer EmpathICH '23 workshop
   body: One of the lead organizers of the 2023 edition of the Empathy workshop at CHI! Worked to organize the workshop, review submissions, arrrange the program!
   link: "https://empathich.com/"
