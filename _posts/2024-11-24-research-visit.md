@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Research Visit / Intership"
-date: 2024-11-24 14:37:43 +0300
+date: 2024-11-24 1:37:43 +0300
 categories: highlight
 image: wo_pic.jpg
 ---
