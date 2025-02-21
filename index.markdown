@@ -7,7 +7,5 @@ layout: home
 headline: 
     - "I build stuff* and put it on the internet."
     - " * random mechatronics, 360° video tools, (e)-bikes, design tools, human food interaction things."
-    - "Also I am a PhD candidate at the Faculty of Industrial Design Engineering at the TU Delft, making 360° work for designers."
-    - "Looking for an internship / research visit April-Sept 2025"
-    - "email me: wo [at] womeijer.com"
+    - "Currently a PhD candidate at the Faculty of Industrial Design Engineering at the TU Delft, making 360° work for designers."
 ---
