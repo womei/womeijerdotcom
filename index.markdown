@@ -5,7 +5,7 @@
 layout: home
 
 headline: 
-    - "I build stuff* and put it on the internet."
-    - " * random mechatronics, 360° video tools, (e)-bikes, design tools, human food interaction things."
-    - "Currently a PhD candidate at the Faculty of Industrial Design Engineering at the TU Delft, making 360° work for designers."
+    - "I am a designer, researcher, and maker."
+    - "Currently I make food robots more human."
+    - "Waiting to defend my PhD at the TU Delft."
 ---
