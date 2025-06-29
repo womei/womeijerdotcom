@@ -17,6 +17,7 @@ layout: default
 </section>
 
 <section>
+    <h2>Highlights:</h2>
     <ul class="highlights">
         {% for post in site.posts %}
         {% if post.categories contains "highlight" %}
@@ -32,7 +33,7 @@ layout: default
 </section>
 
 <section class="projectlist">
-    <h2>Projects</h2>
+    <h2>Things I did:</h2>
     <ul class="ul-nostyle">
         {% for project in site.data.projects %}
         <li class="projectitem">

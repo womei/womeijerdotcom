@@ -3,7 +3,7 @@ layout: post
 title: "Bike Design"
 date: 2022-09-14 14:37:43 +0300
 categories: highlight
-image: blurred_bike.png
+image: life-cycle.png
 ---
 
 ![Three bike designers]({{ site.baseurl }}/assets/images/bike_designers.png)
@@ -18,4 +18,5 @@ For a year and change I was a bike designer for Roetz Bikes, developing their in
 - electronics developer (creating a set of smart components that would report wear).
 - programmer (making the smart things blink and throwing together a IoT server).
 
+![me and a coworker next to the prototype bike]({{ site.baseurl }}/assets/images/blurred_bike.png)
 ![A bad sketch of the bike]({{ site.baseurl }}/assets/images/bad_bike_sketch.png)
