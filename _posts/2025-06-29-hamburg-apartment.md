@@ -9,7 +9,8 @@ permalink: /apartment/
 
 ## Hi, my name is Wo Meijer
 
-I'm 31 years old, a dual US / Dutch citizen, the lead designer at goidBytz.
+![Wo Meijer](https://womeijer.com/assets/images/wo_pic.jpg)
+I'm 31 years old, a dual US / Dutch citizen, the lead designer at goodBytz.
 
 And I'm looking for an apartment in Hamburg.
 
