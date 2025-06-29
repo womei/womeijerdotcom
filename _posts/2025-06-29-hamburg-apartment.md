@@ -17,6 +17,8 @@ And I'm looking for an apartment in Hamburg.
 
 ### What am I looking for
 
+![Area]({{ site.baseurl }}/assets/images/HamburgApartmentArea.jpg){: width="450" }
+
 A clean, quiet apartment:
 
 - at least 2 rooms,
