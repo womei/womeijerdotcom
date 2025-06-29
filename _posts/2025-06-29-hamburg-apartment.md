@@ -16,7 +16,7 @@ And I'm looking for an apartment in Hamburg.
 
 ### What am I looking for
 
-A clean, quite apartment:
+A clean, quiet apartment:
 
 - at least 2 rooms,
 - near a metro station (U1 or U3),
