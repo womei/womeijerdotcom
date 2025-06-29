@@ -157,7 +157,7 @@ a:hover {
 }
 
 .tag {
-	padding: 2px 8px;
+	padding: 2px 1rem;
 	width: min-content;
 	border-radius: 1rem;
 
@@ -188,4 +188,8 @@ a:hover {
 
 .tag-farts {
 	background-color: mix(#fff, $accent, 25%);
+}
+
+.tag-management {
+	background-color: mix(#fff, #55f, 25%);
 }

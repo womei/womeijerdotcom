@@ -1,7 +1,8 @@
 
+
 - title: "Tangi: a Tool to Create Tangible Artifacts for Sharing Insights from 360."
-  link: "https://arxiv.org/abs/2411.10192"
-  body: "Paper that will be presented at TEI 2025 about making 360° content tangible for workshops!" 
+  link: "https://dl.acm.org/doi/10.1145/3689050.3704928"
+  body: "Paper presented at TEI 2025 about making 360° content tangible for workshops!" 
   tags: 
     - publication
     
@@ -16,7 +17,7 @@
   link: "https://www.tudelft.nl/en/about-tu-delft/organisation/consultation-bodies/ondernemingsraad"
   tags: 
     - TUDelft
-    - Management
+    - management
     
 - title: Destructive Feedback
   body: I wrote a paper about how people turning bike seats backwards in the Paris bike share system is a user generated feedback mechanism that should be embraced by designers.
@@ -30,7 +31,7 @@
   link: "https://www.tudelft.nl/io/onderzoek/graduate-school/phd-council"
   tags: 
     - TUDelft
-    - Management
+    - management
 
 - title: "Mentor: Smart Connected Bikes"
   link: "https://repository.tudelft.nl/islandora/object/uuid%3Abaa49891-fb24-415f-b437-2e8855d175f0"
@@ -39,13 +40,13 @@
     - graduation
     - bikes
     - TUDelft
-    - Management
+    - management
 
 - title: Founder - Delft Improv Group
   link: "https://delftimprov.com/"
   body: "I founded the largest improv group in Delft. We perform monthly shows and teach workshops to students and professionals. Despite founding it when I was 19 it still goes strong today!" 
   tags:
-    - Management
+    - management
   
 - title: Organizer EmpathICH '23 workshop
   body: One of the lead organizers of the 2023 edition of the Empathy workshop at CHI! Worked to organize the workshop, review submissions, arrrange the program!
