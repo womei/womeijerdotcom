@@ -11,47 +11,8 @@ permalink: /apartment/
 
 ![Wo Meijer](https://womeijer.com/assets/images/wo_pic.jpg){: width="450" }
 
-I'm 31 years old, a dual US / Dutch citizen, the lead designer at [goodBytz](https://www.goodbytz.com/).
+And I found an apartment in Hamburg, Germany!
 
-And I'm looking for an apartment in Hamburg.
+So if you're here because you saw a post about me asking for an apartment in Hamburg, I just wanted to let you know that I found one!
 
-### What am I looking for
-
-![Area]({{ site.baseurl }}/assets/images/HamburgApartmentArea.jpg){: width="450" }
-
-A clean, quiet apartment:
-
-- at least 2 rooms,
-- near a metro station (U1 or U3),
-- budget 1,500 euros per month (and not more than 25 euro per m²).
-- Starting in August or September
-
-### Nice to haves
-
-- close to green space
-- close to grocery stores
-- bigger
-- cheaper ;)
-
-### Why I am a good tenant
-
-- I have been renting for the last 12 years
-- never missed rent payment
-- no debt (and clean schufa)
-- steady income
-- savings
-- clean, respectful
-- can do some DIY
-Of course I can provide evidence for all of these things on request :)
-
-### Have a place
-
-Email me! `w.o.meijer@gmail.com`
-
-### Have a lead
-
-Email me! `w.o.meijer@gmail.com`
-
-### Any advice or support
-
-Email me! `w.o.meijer@gmail.com`
+Thanks to everyone who helped me out, I really appreciate it!
