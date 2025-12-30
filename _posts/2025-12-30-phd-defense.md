@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wo Meijer - PhD Defense"
-date: 2025-1230 10:00:00 +0200
+date: 2025-12-30 10:00:00 +0200
 permalink: /defense/
 ---
 
