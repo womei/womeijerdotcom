@@ -6,6 +6,6 @@ layout: home
 
 headline: 
     - "I am a designer, researcher, and maker."
-    - "Currently I make food robots more human."
-    - "Waiting to defend my PhD at the TU Delft."
+    - "Currently I make food robots more human @ goodBytz."
+    - "Defending my PhD at TU Delft April 22nd."
 ---
