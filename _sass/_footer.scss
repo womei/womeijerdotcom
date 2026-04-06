@@ -1,0 +1,9 @@
+footer {
+    padding: $padding-s;
+
+    background-color: $accent;
+
+    @include medium {
+        padding: $padding-m;
+    }
+}
