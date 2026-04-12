@@ -13,4 +13,8 @@ Hello everyone! I finally completed my PhD and will (likely*) defend on April 22
 
 More information about what will happen (link to event, live stream, the plan) to follow!
 
+## Link to stream of the defense
+The defense will be streamed live by the TU Delft, and you can watch it [here](https://nmclive.tudelft.nl/mediasite/play/8464ee97524541d8b0f1f9bc10b50da21d).
+
+
 Link to a placeholder event [here](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2xrZGk0NmhpZGJvamdhMWpoM3RhbTBnamQgd29tZWlqZXJAbQ&tmsrc=womeijer%40gmail.com)
