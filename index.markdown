@@ -5,7 +5,7 @@
 layout: home
 
 headline: 
-    - "I am a designer, researcher, and maker."
-    - "Currently I make food robots more human @ goodBytz."
-    - "Recently became a doctor (PhD)"
+    - "I am a designer, product manager, and researcher."
+    - "Currently I combine design and technology to make cooking robots @ goodBytz."
+    - "Looking for new opportunities in the Netherlands."
 ---

@@ -21,11 +21,11 @@
 title: Wo Meijer dot com
 email: wo@womeijer.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the website for Wo Meijer (me). I'm a PhD candidate and designer.
+  This is the website for Wo Meijer (me). I'm a doctor, designer, and product manager.
 # url: https://womei.github.io
-# baseurl: /womeijerdotcom
+baseurl: /womeijerdotcom
 url: https://womeijer.com
-baseurl: 
+# baseurl: 
 twitter_username: jekyllrb
 github_username:  jekyll
 
