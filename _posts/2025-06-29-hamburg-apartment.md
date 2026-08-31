@@ -25,4 +25,4 @@ I would need to do a Nachmieter thing with the housing company, so if you are in
 
 ## Exta, stuff
 
-I also want to get rid of some furniture and other stuff in the apartment, so if you are interested in that, please let me know. Please find the info [here](https://womeijer.com/stuff).
+I also want to get rid of some furniture and other stuff in the apartment, so if you are interested in that, please let me know. Please find the info [here](https://docs.google.com/spreadsheets/d/1_L3DCBKxtvynKTM63kXG6uvodo0qBCFE_35qJjzvKUw/edit?usp=sharing).
