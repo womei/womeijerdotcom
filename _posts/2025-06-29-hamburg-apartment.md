@@ -11,32 +11,18 @@ permalink: /apartment/
 
 ![Wo Meijer](https://womeijer.com/assets/images/wo_pic.jpg){: width="450" }
 
-And I am passively looking for an apartment in Hamburg, Germany!
+And I am looking to get rid of my apartment in Hamburg, Germany. I am looking for a new tenant to take over my lease, starting from October 1st, 2026. The apartment is located in a quiet neighborhood, with good public transport connections, and is perfect for someone looking for a cozy and comfortable place to live.
 
-## Me
+## Key details about the apartment:
+
+- Location: 5 minute walk from Kellinghusenstraße U-Bahn station - close to Rewe and Lidl supermarkets, and a 10 minute walk to the Alster lake.
+- Size: 55 square meters
+- Rent: 1,145 EUR per month (including heating, not water or electricity)
+- Deposit: 3 months rent
 
 
-I am a 30-something Industrial Designer, I am a responsible tenant, non-smoker, and I have a stable income.
-I enjoy a quiet lifestyle, relaxed atmosphere, and I am respectful of my neighbors.
-I communicate well, and pay my rent on time.
-My hobbies include cooking, reading, and exploring the city.
+I would need to do a Nachmieter thing with the housing company, so if you are interested, please reach out to me -- wo meijer at gmail.com -- and we can discuss the details. I am happy to provide more information about the apartment and answer any questions you may have.
 
-My partner lives in the Netherlands, and I travel there frequently - and travel for work -, so I am looking for a place that is easy to maintain and manage.
+## Exta, stuff
 
-## The Perfect Apartment
-
-I already have an apartment in Hamburg, but I am looking to downsize re: partner and traveling for work. I am looking for a small, cozy apartment in a quiet neighborhood, preferably with good public transport connections.
-
-Specifically:
-
-- A studio apartment*, anything bigger is a bonus.
-- quiet neighborhood, preferably with green spaces nearby.
-- good public transport connections - close to the U1, U3, or S1 (I need to get to Barmbek for work).
-- Rent up to €800 per month.
-
-*I am open to a shared apartment, but I don't want to be a ghost tenant, so it would need to be the perfect vibes.
-
-## Call to Action
-
-If you have an apartment that fits this description, or know someone who does, please reach out to me! I would love to hear from you and discuss the possibility of renting your apartment.
-Email me at womeijer@gmail.com .
+I also want to get rid of some furniture and other stuff in the apartment, so if you are interested in that, please let me know. Please find the info [here](https://womeijer.com/stuff).
