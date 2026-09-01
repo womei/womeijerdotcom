@@ -7,9 +7,9 @@ permalink: /apartment/
 
 
 
-## Hi, my name is Wo Meijer
+## 55m2 apartment in Hamburg, near kellinghusenstraße U-Bahn station
 
-![Wo Meijer](https://womeijer.com/assets/images/wo_pic.jpg){: width="450" }
+Take a look at the photos [here](https://photos.app.goo.gl/RFQa9zpzSZd1GQJ58).
 
 And I am looking to get rid of my apartment in Hamburg, Germany. I am looking for a new tenant to take over my lease, starting from October 1st, 2026. The apartment is located in a quiet neighborhood, with good public transport connections, and is perfect for someone looking for a cozy and comfortable place to live.
 
