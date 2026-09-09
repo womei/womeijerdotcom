@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cooking Robot"
+title: "Cooking Robots"
 date: 2023-08-31 14:37:43 +0300
 categories: highlight
 image: emma_release_photo.jpg
