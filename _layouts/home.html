@@ -34,9 +34,22 @@ layout: default
 
 <section class="projectlist">
     <h2>Things I did:</h2>
-    <ul class="ul-nostyle">
+    {% assign project_tags = "" | split: "" %}
+    {% for project in site.data.projects %}
+        {% if project.tags %}
+        {% assign project_tags = project_tags | concat: project.tags %}
+        {% endif %}
+    {% endfor %}
+    {% assign project_tags = project_tags | sort | uniq %}
+    <div class="project-filters" aria-label="Filter projects by category">
+        <button class="project-filter is-active" type="button" data-project-filter="all" aria-pressed="true">All</button>
+        {% for tag in project_tags %}
+        <button class="project-filter" type="button" data-project-filter="{{ tag }}" aria-pressed="false">{{ tag }}</button>
+        {% endfor %}
+    </div>
+    <ul class="ul-nostyle" data-project-list>
         {% for project in site.data.projects %}
-        <li class="projectitem">
+        <li class="projectitem" data-project-tags="{{ project.tags | join: ' ' }}">
             {% if project.link %}
             <h3>
                 <a href="{{ project.link }}">
@@ -62,3 +75,22 @@ layout: default
         {% endfor %}
     </ul>
 </section>
+
+<script>
+    document.querySelectorAll('[data-project-filter]').forEach((filter) => {
+        filter.addEventListener('click', () => {
+            const selectedTag = filter.dataset.projectFilter;
+
+            document.querySelectorAll('[data-project-filter]').forEach((button) => {
+                const isSelected = button === filter;
+                button.classList.toggle('is-active', isSelected);
+                button.setAttribute('aria-pressed', isSelected);
+            });
+
+            document.querySelectorAll('[data-project-list] .projectitem').forEach((project) => {
+                const tags = project.dataset.projectTags.split(' ').filter(Boolean);
+                project.hidden = selectedTag !== 'all' && !tags.includes(selectedTag);
+            });
+        });
+    });
+</script>

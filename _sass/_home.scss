@@ -64,3 +64,28 @@
 .projectitem {
 	margin: 1rem 0;
 }
+
+.project-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 0.75rem 0 1.5rem;
+}
+
+.project-filter {
+	border: 2px solid $dark;
+	border-radius: 999px;
+	background: transparent;
+	color: $dark;
+	font: inherit;
+	font-weight: 700;
+	padding: 0.35rem 0.75rem;
+	cursor: pointer;
+
+	&:hover,
+	&:focus-visible,
+	&.is-active {
+		background: $accent;
+		color: $dark;
+	}
+}
