@@ -1,7 +1,5 @@
-@import "variables";
-@import "mixins";
-@import "base";
-@import "header";
-@import "footer";
-@import "home";
-@import "post";
+@use "base";
+@use "header";
+@use "footer";
+@use "home";
+@use "post";

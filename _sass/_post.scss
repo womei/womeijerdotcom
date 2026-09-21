@@ -1,3 +1,5 @@
+@use "mixins" as *;
+
 .post {
 	@include medium {
 		max-width: 680px;

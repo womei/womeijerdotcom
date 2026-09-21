@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "mixins" as *;
+@use "variables" as *;
+
 html {
 	font-size: 16px;
 }
@@ -158,8 +162,10 @@ a:hover {
 
 .tag {
 	padding: 2px 1rem;
-	width: min-content;
+	width: auto;
 	border-radius: 1rem;
+	white-space: nowrap;
+	flex: 0 0 auto;
 
 	a {
 		color: $dark;
@@ -167,29 +173,41 @@ a:hover {
 }
 
 .tag-publication {
-	background-color: mix(#fff, $blue2, 25%);
+	background-color: color.mix(#fff, $blue2, 25%);
 }
 
 .tag-food {
-	background-color: mix(#fff, $blue1, 25%);
+	background-color: color.mix(#fff, $blue1, 25%);
 }
 
 .tag-TUDelft {
-	background-color: mix(#fff, $blue1, 25%);
+	background-color: color.mix(#fff, $blue1, 25%);
 }
 
 .tag-bikes {
-	background-color: mix(#fff, $accent, 25%);
+	background-color: color.mix(#fff, $accent, 25%);
 }
 
 .tag-graduation {
-	background-color: mix(#fff, $red, 25%);
+	background-color: color.mix(#fff, $red, 25%);
 }
 
 .tag-farts {
-	background-color: mix(#fff, $accent, 25%);
+	background-color: color.mix(#fff, $accent, 25%);
 }
 
 .tag-management {
-	background-color: mix(#fff, #55f, 25%);
+	background-color: color.mix(#fff, #55f, 25%);
+}
+
+.tag-design {
+	background-color: color.mix(#fff, $blue1, 25%);
+}
+
+.tag-robotics {
+	background-color: color.mix(#fff, $blue2, 25%);
+}
+
+.tag-side-project {
+	background-color: color.mix(#fff, $red, 25%);
 }

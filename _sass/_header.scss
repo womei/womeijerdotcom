@@ -1,14 +1,17 @@
+@use "mixins" as *;
+@use "variables" as *;
+
 header {
   position: fixed;
   top: 0;
   box-sizing: border-box;
   width: 100%;
-  
+
   background-color: $blue1;
   padding: $padding-s;
-  
+
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "logo hamburger"
     "links links";
   align-items: center;
@@ -46,7 +49,7 @@ header {
     transition: max-height .2s ease-in-out;
 
     list-style-type: none;
-    
+
     a {
       color: $dark;
     }

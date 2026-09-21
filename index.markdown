@@ -5,7 +5,7 @@
 layout: home
 
 headline: 
-    - "I am a designer, product manager, and researcher."
-    - "Currently I combine design and technology to make cooking robots @ goodBytz."
-    - "Looking for new opportunities in the Netherlands."
+- "Technical Project Lead | Mechatronics, Robotics, & Industrial Design." 
+- "Leading products from early concept to deployed hardware @ goodBytz."
+- "Seeking new hardware leadership opportunities in the Netherlands."
 ---

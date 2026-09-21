@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "mixins" as *;
+@use "variables" as *;
+
 .blurb {
 	img {
 		width: 100%;
@@ -63,4 +67,110 @@
 
 .projectitem {
 	margin: 1rem 0;
+}
+
+.project-filter-menu {
+	margin: 0.75rem 0 1.5rem;
+
+	@include medium {
+		.project-filter-summary {
+			display: none;
+		}
+	}
+}
+
+.project-filter-summary {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.35rem 0.75rem;
+	border: 2px solid $dark;
+	border-radius: 999px;
+	font-weight: 700;
+	cursor: pointer;
+
+	&::marker {
+		content: '';
+	}
+
+	&::after {
+		content: '+';
+		font-family: $header-font-family;
+	}
+}
+
+.project-filter-menu[open] .project-filter-summary::after {
+	content: '-';
+}
+
+.project-filters {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.5rem;
+	margin-top: 0.75rem;
+
+	@include medium {
+		flex-direction: row;
+		align-items: stretch;
+		overflow-x: auto;
+		overscroll-behavior-inline: contain;
+		margin-top: 0;
+		padding-bottom: 0.25rem;
+	}
+}
+
+.project-filter {
+	border: 2px solid $dark;
+	border-radius: 999px;
+	background: transparent;
+	color: $dark;
+	font: inherit;
+	font-weight: 700;
+	padding: 0.35rem 0.75rem;
+	cursor: pointer;
+	white-space: nowrap;
+
+	@include medium {
+		flex: 0 0 auto;
+	}
+
+	&:hover,
+	&:focus-visible,
+	&.is-active {
+		background: var(--project-filter-color, $accent);
+		color: $dark;
+	}
+}
+
+.project-filter--publication {
+	--project-filter-color: #{color.mix(#fff, $blue2, 25%)};
+}
+
+.project-filter--TUDelft {
+	--project-filter-color: #{color.mix(#fff, $blue1, 25%)};
+}
+
+.project-filter--bikes {
+	--project-filter-color: #{color.mix(#fff, $accent, 25%)};
+}
+
+.project-filter--graduation {
+	--project-filter-color: #{color.mix(#fff, $red, 25%)};
+}
+
+.project-filter--management {
+	--project-filter-color: #{color.mix(#fff, #55f, 25%)};
+}
+
+.project-filter--design {
+	--project-filter-color: #{color.mix(#fff, $blue1, 25%)};
+}
+
+.project-filter--robotics {
+	--project-filter-color: #{color.mix(#fff, $blue2, 25%)};
+}
+
+.project-filter--side-project {
+	--project-filter-color: #{color.mix(#fff, $red, 25%)};
 }
