@@ -1,3 +1,5 @@
+@use "sass:color";
+
 /* Typography */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Nunito:wght@400;700&display=swap');
 
@@ -17,9 +19,9 @@ $blue2: hsl(185, 80%, 70%);
 $accent: hsl(26, 94%, 60%);
 $light: hsl(64, 77%, 98%);
 
-$link-color: mix(#000, $accent, 40%);
-$link-color-hover: mix(#fff, $link-color, 25%);
-$link-color-visited: mix(#fff, $link-color, 15%);
+$link-color: color.mix(#000, $accent, 40%);
+$link-color-hover: color.mix(#fff, $link-color, 25%);
+$link-color-visited: color.mix(#fff, $link-color, 15%);
 
 $code-background: $blue2;
 

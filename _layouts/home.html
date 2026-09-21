@@ -41,12 +41,15 @@ layout: default
         {% endif %}
     {% endfor %}
     {% assign project_tags = project_tags | sort | uniq %}
-    <div class="project-filters" aria-label="Filter projects by category">
-        <button class="project-filter is-active" type="button" data-project-filter="all" aria-pressed="true">All</button>
+    <details class="project-filter-menu">
+        <summary class="project-filter-summary">All projects</summary>
+        <div class="project-filters" aria-label="Filter projects by category">
+        <button class="project-filter project-filter--all is-active" type="button" data-project-filter="all" aria-pressed="true">All</button>
         {% for tag in project_tags %}
-        <button class="project-filter" type="button" data-project-filter="{{ tag }}" aria-pressed="false">{{ tag }}</button>
+        <button class="project-filter project-filter--{{ tag }}" type="button" data-project-filter="{{ tag }}" aria-pressed="false">{{ tag }}</button>
         {% endfor %}
-    </div>
+        </div>
+    </details>
     <ul class="ul-nostyle" data-project-list>
         {% for project in site.data.projects %}
         <li class="projectitem" data-project-tags="{{ project.tags | join: ' ' }}">
@@ -77,6 +80,16 @@ layout: default
 </section>
 
 <script>
+    const filterMenu = document.querySelector('.project-filter-menu');
+    const desktopFilters = window.matchMedia('(min-width: 640px)');
+
+    const syncFilterMenu = () => {
+        filterMenu.open = desktopFilters.matches;
+    };
+
+    syncFilterMenu();
+    desktopFilters.addEventListener('change', syncFilterMenu);
+
     document.querySelectorAll('[data-project-filter]').forEach((filter) => {
         filter.addEventListener('click', () => {
             const selectedTag = filter.dataset.projectFilter;
@@ -86,6 +99,11 @@ layout: default
                 button.classList.toggle('is-active', isSelected);
                 button.setAttribute('aria-pressed', isSelected);
             });
+
+            document.querySelector('.project-filter-summary').textContent = selectedTag === 'all'
+                ? 'All projects'
+                : `${filter.textContent} projects`;
+            filterMenu.open = false;
 
             document.querySelectorAll('[data-project-list] .projectitem').forEach((project) => {
                 const tags = project.dataset.projectTags.split(' ').filter(Boolean);

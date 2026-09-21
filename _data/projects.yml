@@ -1,11 +1,21 @@
+- title: "Reel Guess- a different Movie Guessing Game"
+  link: "https://reel-guess.womeijer.com"
+  body: "An entirely vibe-coded side project where you guess movies based on a series of two words clues (like Codenames)."
+  tags:
+    - side-project
 
 - title: "Blurb- a Movie Guessing Game"
   link: "https://blurb.womeijer.com"
   body: "A mostly vibe-coded side project where you guess movies based on the least numbe of words of their synopsis."
+  tags:
+    - side-project
 
-- title: "GoodBytz - Cooking Robot Deployed in Supermarket"
-  link: "https://retail-optimiser.de/en/edeka-ristow-cooks-with-autonomous-robots-from-goodbytz/"
-  body: "I assisted in the design and development of a cooking robot that is now deployed in one supermarket Germany - for now."
+- title: "emma - a next generation cooking robot."
+  link: "https://www.goodbytz.com/press/goodbytz-presents-new-product-emma."
+  body: "I lead the design of the next generation cooking robot at Goodbytz. I was responsible for the design of the physical product, the app, and the overall experience."
+  tags:
+    - robotics
+    - design
 
 - title: "Tangi: a Tool to Create Tangible Artifacts for Sharing Insights from 360."
   link: "https://dl.acm.org/doi/10.1145/3689050.3704928"
@@ -19,9 +29,6 @@
   tags: 
     - publication
 
-- title: "Wave 2 Your Friends"
-  link: "https://play.google.com/store/apps/details?id=com.WoMeijer.Wave2YourFriends"
-  body: "A multiplayer VR game that enables social interaction in virtual reality through hand gestures - delisted from the Play Store :("
     
 - title: "Member of the Works Council"
   body: "As a member of the Works Council (OR) I am responsible for interfacing with the excutive board of the university to champion the rigts of employees. Fighting for social safety and well being for all employees, but especially PhD candidates." 
@@ -35,7 +42,7 @@
   link: "https://research.tudelft.nl/en/publications/destructive-feedback-a-user-created-strategy-for-collecting-user-"
   tags: 
     - publication
-    - bikes
+    - mobility
 
 - title: "PhD Council Member"
   body: "As a member of the PhD council I was responsible for organizing events for PhD students at the faculty of Industrial Design Engineering as well as acting as the link between the PhD students and the faculty. This included organizing the yearly PhD day, monthly drinks, and putting out fires." 
@@ -44,12 +51,11 @@
     - TUDelft
     - management
 
-- title: "Mentor: Smart Connected Bikes"
+- title: "Mentor: Smart Connected mobility"
   link: "https://repository.tudelft.nl/islandora/object/uuid%3Abaa49891-fb24-415f-b437-2e8855d175f0"
   body: "I was the second mentor for Bent Verhoeff's graduation project: Increasing Empathy Towards Gig Workers Through Communicating Heart Rate Data." 
   tags: 
-    - graduation
-    - bikes
+    - mobility
     - TUDelft
     - management
 
